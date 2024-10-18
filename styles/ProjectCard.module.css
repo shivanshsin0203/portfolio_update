@@ -1,0 +1,164 @@
+/* Container for the project cards */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 cards per row on larger screens */
+  gap: 2rem; /* Adjust gap between the cards */
+  margin-top: 2rem;
+}
+
+/* Card styles */
+.card {
+  background: var(--article-bg);
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+  padding: 1rem;
+  border-radius: 0 0 20px 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.content p {
+  font-size: 17px;
+  line-height: 1.5;
+  margin-top: 0.5rem;
+}
+
+/* Tags styles */
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0.5rem 0 1rem;
+}
+
+.tags span {
+  margin: 0.5rem 0.5rem 0 0;
+  padding: 0.3rem 0.8rem;
+  border-radius: 30px;
+  font-size: 0.8rem;
+  color: white;
+  background-color: #0070f3;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.tags span:hover {
+  background-color: #005bb5;
+  transform: translateY(-3px);
+}
+
+/* CTA section */
+.cta {
+  display: flex;
+  gap: 1rem;
+}
+
+/* Underline link */
+.underline {
+  padding: 0.2rem 0;
+  font-size: 22px;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  background-image: linear-gradient(
+    120deg,
+    #0088cc 100%,
+    #0088aa 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 88%;
+  transition: background-size 0.25s ease-in;
+}
+
+.underline:hover {
+  background-size: 100% 88%;
+}
+
+/* Buttons container */
+.buttons {
+  margin-top: 10px;
+  display: flex;
+  gap: 1rem;
+}
+
+/* Button styles */
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  color: white;
+  padding: 12px 25px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.button:hover {
+  background: linear-gradient(135deg, #4a63f6, #905be2);
+  transform: translateY(-3px);
+}
+
+.icon {
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
+
+/* Responsive: Adjust the grid for medium screens */
+@media (max-width: 1024px) {
+  .card-container {
+    grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+  }
+  .button {
+    font-size: 0.9rem; /* Slightly smaller button text */
+    padding: 10px 20px;
+  }
+}
+
+/* Responsive: Adjust the grid for smaller screens */
+@media (max-width: 600px) {
+  .card-container {
+    grid-template-columns: 1fr; /* 1 card per row */
+    gap: 1rem; /* Reduce gap between cards */
+  }
+
+  .card {
+    padding: 0.8rem; /* Reduce padding on smaller screens */
+  }
+
+  .content p {
+    font-size: 15px; /* Smaller text for descriptions */
+  }
+
+  /* Make tags more compact on smaller screens */
+  .tags span {
+    padding: 0.2rem 0.6rem;
+    font-size: 0.7rem;
+  }
+
+  /* Buttons should be smaller but still clickable */
+  .button {
+    font-size: 0.85rem;
+    padding: 8px 15px;
+    border-radius: 40px;
+  }
+
+  /* Ensure icons are still proportional on smaller screens */
+  .icon {
+    font-size: 1rem;
+    margin-right: 6px;
+  }
+}

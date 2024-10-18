@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Tags */
+.react {
+  border: 0.1rem solid rgb(97, 218, 251);
+}
+
+.react:hover, .html:hover, .firebase:hover {
+  background: rgba(97, 218, 251, 0.25);
+}
+
+.html, .firebase {
+  border: 2px solid orange;
+}
+
+.node {
+  border: 0.1rem solid rgb(131, 205, 41);
+}
+.node:hover {
+  background: rgba(131, 205, 41, 0.25);
+}
+
+.javascript, .telegram {
+  border: 0.1rem solid rgb(67, 153, 52);
+}
+.javascript:hover, .telegram:hover {
+  background: rgba(67, 153, 52, 0.25);
+}
+
+.bootstrap {
+  border: 0.1rem solid rgb(118, 74, 188);
+}
+.bootstrap:hover {
+  background: rgba(118, 74, 188, 0.25);
+}
+
+.api {
+  border: 0.1rem solid rgb(82, 143, 240);
+}
+.api:hover {
+  background: rgba(82, 143, 240, 0.25);
+}
+
+.firebases {
+  border: 0.1rem solid rgb(25, 118, 210);
+}
+.firebases:hover {
+  background: rgba(25, 118, 210, 0.25);
+}
+
+.email, .express {
+  border: 0.1rem solid rgb(0, 209, 178);
+}
+.email:hover, .express:hover {
+  background: rgb(0, 209, 178, 0.25);
+}
+
+.next {
+  border: 2px solid rgb(0, 112, 243);
+}
+.next:hover {
+  background: rgba(0, 112, 243, 0.25);
+}
+
+.tailwind, .expo {
+  border: 2px solid rgb(6, 182, 212);
+}
+.tailwind:hover, .expo:hover {
+  background: rgba(6, 182, 212, 0.25);
+}
+
+.react-native {
+  border: 2px solid rgb(255, 65, 84);
+}
+.react-native:hover {
+  background: rgba(255, 65, 84, 0.25);
+}
+
+.css {
+  border: 2px solid rgb(21, 114, 182);
+}
+.css:hover {
+  background: rgba(21, 114, 182, 0.25);
+}
