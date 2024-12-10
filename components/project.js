@@ -3,7 +3,7 @@ export const getProjects = () => {
 {
     "id": 1,
     "name": "ShoeSale (Buy It)",
-    "image": "https://media.licdn.com/dms/image/v2/D5622AQH2oPJva9iFbA/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1705499620777?e=1732147200&v=beta&t=xOcGR650XCChxGg1ecUtkQJ5OXfJDfaJFg9BvzxM-uI",
+    "image": "https://graphicsfamily.com/wp-content/uploads/edd/2022/06/Free-Shoes-Sale-Banner-Advertising-Template-scaled.jpg",
     "description": " An e-commerce website which uses tailwind for styling and redux for the state management with FireBaseLogin ",
     "tags": ["redux", "firebase", "tailwindcss","reactjs"],
     "code": "https://github.com/shivanshsin0203/ShoeSale",
@@ -23,7 +23,7 @@ export const getProjects = () => {
   {
     "id": 3,
     "name": "Creedo (Social App)",
-    "image": "https://media.licdn.com/dms/image/v2/D5622AQFddrpzVxrvuQ/feedshare-shrink_800/feedshare-shrink_800/0/1707224146862?e=1732147200&v=beta&t=kJXekZaCpiys6abbcqKSQZ-ErE3VopExSA7pZTGYlxQ",
+    "image": "https://preview.redd.it/new-reddit-home-page-v0-jcvzb2gceetc1.png?width=1920&format=png&auto=webp&s=84db64bf498d96759b6fb8bbeb69b6091dc97c79",
     "description": "Node Js and Socket.Io for backend and real-timenotification. Kinde for session and authentication. Use of SSR and CSR in Next js. React Dropzone for drag and drop.MongoDB for the database. Cloudinary for cloud storage ",
     "tags": ["express", "sockets", "javascript","shadcn","mongodb"],
     "demo": "https://creedo.vercel.app",
